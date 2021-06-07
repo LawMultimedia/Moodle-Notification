@@ -23,3 +23,4 @@ var headerTitle = $('.header-title').text();
     		}
 	}
   });
+
