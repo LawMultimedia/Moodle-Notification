@@ -1,6 +1,8 @@
 window.addEventListener('load', function(){
 // grab the unit title out of the image/banner header at the top of the site, remove all the spaces in the name, and take the first 3 characters.
 var headerTitle = $('.header-title').text().replace(/\s/g,'').slice(0,3);
+// change constant for testing purposes
+//	const expirationDuration = 1000 * 60 * 2;
 // define expiration duration as 144 hours/7 days
 	const expirationDuration = 1000 * 60 * 60 * 288;
 // save the time of the current login to localStorage
